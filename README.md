@@ -6,16 +6,12 @@
 To study a **660nm & 950nm Fiber Optic Digital Link**.  
 This experiment demonstrates how a digital signal can be transmitted over a fiber cable and reproduced at the receiver end.
 
----
-
 ## EQUIPMENTS REQUIRED
 - Link-B Kit with power supply  
 - Patch chords  
 - 20 MHz Dual Channel Oscilloscope  
 - 1 MHz Function Generator  
-- 1 Meter Fiber Cable  
-
----
+- 1 Meter Fiber Cable 
 
 ## THEORY
 Fiber optic links can be used for transmission of both digital and analog signals. A typical fiber optic link consists of three main elements:
@@ -43,8 +39,6 @@ Fiber optic links can be used for transmission of both digital and analog signal
 - The comparator compares this voltage with a reference derived from a “blind” photodiode for synchronization.  
 - The level shifter provides an open collector output stage with a catch diode to prevent transistor saturation.
 
----
-
 ## PROCEDURE
 1. Refer to the block diagram and make the required connections.  
 2. Connect the power supply to the Link-B kit with proper polarity and switch ON.  
@@ -67,25 +61,13 @@ Fiber optic links can be used for transmission of both digital and analog signal
 11. JP7 → +5V position.  
 12. Remove fiber from SFH756V (660nm), loosen cap of **SFH450V (950nm)**, insert fiber, and tighten.  
 13. Observe detected signal at **TTL OUT** on oscilloscope.  
-
----
-
 ## TABULATION
 
-| Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain (dB) |
-|----------------|-------------------------------|--------------|-----------|
-|                |                               |              |           |
-|                |                               |              |           |
+![WhatsApp Image 2026-03-21 at 6 59 06 PM](https://github.com/user-attachments/assets/eaf596db-08a6-44a6-8d18-43f21f3cab4f)
 
----
-
-## MODEL GRAPH
-*(Attach plotted graph of Gain vs Frequency here)*
-
----
+## GRAPH
+![WhatsApp Image 2026-03-21 at 7 03 07 PM (1)](https://github.com/user-attachments/assets/bb6dec92-e02c-4a82-90b2-6f3966382c1a)
 
 ## RESULT
 The digital signal was successfully transmitted through **660nm and 950nm fiber optic links** and reproduced at the receiver end.  
 The maximum bit rate of the digital link was determined experimentally.
-
-
