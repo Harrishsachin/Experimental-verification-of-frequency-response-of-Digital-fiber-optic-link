@@ -52,7 +52,7 @@ Fiber optic links can be used for transmission of both digital and analog signal
    - JP8 → Pulse position  
 4. Feed a **TTL square wave (1 kHz)** from the function generator to the **IN post of Digital Buffer**.  
 5. Connect **OUT of Digital Buffer → TX IN of Transmitter**.  
-6. Loosen the cap of **SFH756V (660nm)**, insert the fiber, and tighten the cap.  
+6. Loosen the cap of **SFH756V (660nm)** , insert the fiber, and tighten the cap.  
 7. Connect the other end of the fiber to **SFH551V detector** carefully.  
 8. Observe the detected signal at **TTL OUT** on the oscilloscope.  
 9. Vary input frequency to measure digital bandwidth.  
